@@ -2,8 +2,8 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 
 // paths matched to your tree
-import Layout from "./components/Layout.jsx";
-import Home from "./components/Home.jsx";
+import Layout from "./Layout.jsx";
+import Home from "./Home.jsx";
 import About from "./about.jsx";
 import Contact from "./contact.jsx";
 import Education from "./education.jsx";
@@ -26,4 +26,5 @@ export default function MainRouter() {
       </Route>
     </Routes>
   );
+
 }
